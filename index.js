@@ -1,6 +1,6 @@
 const express = require("express");
 const { createProxyMiddleware } = require("http-proxy-middleware");
-//twan
+//twan bnjj
 const app = express();
 app.use("/", createProxyMiddleware({
   target: "https://discord.com",
